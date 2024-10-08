@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: migrator
+
+database:
+  source:
+    url: jdbc:mysql://localhost:3306/source_db?verifyServerCertificate=false&useSSL=false&requireSSL=false
+    username: username
+    password: password
+  sink:
+    keyspace: sink_db

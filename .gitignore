@@ -4,12 +4,6 @@
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
 # Package Files #
 *.jar
 *.war
@@ -22,3 +16,16 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore the build directory and all its contents
+build/
+!build/build.xml  # Allow build.xml to be tracked
+
+# Ignore the .idea directory and all its contents
+.idea/
+
+# Ignore Gradle files
+.gradle/
+*.gradle
+gradle-wrapper.jar
+gradle-wrapper.properties
